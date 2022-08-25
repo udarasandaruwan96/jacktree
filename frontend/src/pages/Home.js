@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Footer from './Footer'
-import Header from './Header'
-import Section from './Section'
-import Slider from './Slider'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Section from '../components/Section'
+import Slider from '../components/Slider'
 
 export default function () {
   return (
