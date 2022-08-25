@@ -2415,13 +2415,13 @@ th {
 .table-hover > tbody > tr:hover {
   background-color: #f5f5f5;
 }
-table col[class*="col-"] {
+table col[className*="col-"] {
   position: static;
   display: table-column;
   float: none;
 }
-table td[class*="col-"],
-table th[class*="col-"] {
+table td[className*="col-"],
+table th[className*="col-"] {
   position: static;
   display: table-cell;
   float: none;
@@ -3967,7 +3967,7 @@ tbody.collapse.in {
   display: table;
   border-collapse: separate;
 }
-.input-group[class*="col-"] {
+.input-group[className*="col-"] {
   float: none;
   padding-right: 0;
   padding-left: 0;
@@ -8601,7 +8601,7 @@ h4 code {
     margin-right: -10px;
     margin-left: -10px;
   }
-  .bs-examples > [class^="col-"] {
+  .bs-examples > [className^="col-"] {
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -8850,7 +8850,7 @@ h1[id] {
 .show-grid {
   margin-bottom: 15px;
 }
-.show-grid [class^="col-"] {
+.show-grid [className^="col-"] {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #eee;
@@ -9224,7 +9224,7 @@ h1[id] {
   margin-bottom: 10px;
   font-size: 24px;
 }
-.bs-glyphicons .glyphicon-class {
+.bs-glyphicons .glyphicon-className {
   display: block;
   text-align: center;
   word-wrap: break-word;
@@ -10017,7 +10017,7 @@ img.mfp-img {
   transform-origin: 50%;
   align-items: center;
 }
-/* Clickable class fix problem with hover on touch devices */
+/* Clickable className fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
 .owl-theme .owl-controls.clickable .owl-buttons div:hover {
   filter: Alpha(Opacity=100); /*IE7 fix*/

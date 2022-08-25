@@ -15,7 +15,8 @@ export default function Section() {
                     <div class="row reg_auto_height">
 
                         {/* <!-- col --> */}
-                        <div class="col-md-6 reg_image_bck reg_wht_txt" data-image="http://placehold.it/1000x1000">
+                        <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg"/>
+                        <div class="col-md-6 reg_image_bck reg_wht_txt" data-image="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg">
                             <div class="reg_over" data-color="#333" data-opacity="0.8"></div>
                             <a href="https://www.youtube.com/watch?v=BsekcY04xvQ" class="video reg_fullwidth_link"></a>
                             <div class="reg_block_center">
