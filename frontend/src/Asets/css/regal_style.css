@@ -447,7 +447,9 @@ h2:after,
 	margin-top: -7px;
 	z-index: -1;
 }
-
+.oo {
+   margin-top: 150px;
+}
 .reg_wht_txt h2:after,
 .reg_wht_txt .reg_underline_title:after,
 .reg_wht_txt .reg_subtitle:after,
@@ -3153,12 +3155,14 @@ header {
 
 /*06.14 Block Center*/
 .reg_block_center {
+	background-image: url("../images/Dollarphotoclub_89288289.jpg");
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 300px;
 	transform:translateX(-50%) translateY(-50%);
 	z-index: 1;
 	width: 100%;
+	height: 500px;
 }
 .reg_fullwidth_link {
 	position: absolute;
