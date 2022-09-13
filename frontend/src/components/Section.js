@@ -205,6 +205,7 @@ export default function Section() {
             {/* <!-- item --> */}
             <div class="col-md-6">
               <div class="reg_single_carousel reg_rooms_carousel reg_wht_txt">
+                {/* add image */}
                 <div class="about-col">
                   <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
                 </div>
@@ -281,117 +282,10 @@ export default function Section() {
         data-image="http://placehold.it/1400x800"
         id="reviews"
       >
-        {/* <!-- over --> */}
-        <div class="reg_over" data-color="#292929" data-opacity="0.7"></div>
-
-        <div class="container text-center">
-          <h2>Reviews</h2>
-          <br></br>
-          <h3 class="reg_subtitle">In Social Networks</h3>
-
-          <div class="reg_auto_height reg_single_carousel reg_blc_txt">
-            {/* <!-- item --> */}
-            <div class="reg_review_item">
-              <div
-                class="col-md-6 reg_image_bck"
-                data-image="http://placehold.it/1000x1000"
-              ></div>
-              <div class="col-md-6 reg_image_bck" data-color="#292929">
-                <div class="reg_simple_block">
-                  <h2>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                  </h2>
-                  <h3>Once again, another great stay at Regal!! </h3>
-                  <p>
-                    Once again, another great stay at Regal!! Great location,
-                    great atmosphere, fab staff- so friendly, welcoming and
-                    always willing to help.
-                  </p>
-                  <p>
-                    <a href="#" class="btn">
-                      Read Full Review
-                    </a>
-                  </p>
-                  <p>
-                    <img src="http://placehold.it/200x80" alt=""></img>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- item --> */}
-            <div class="reg_review_item">
-              <div
-                class="col-md-6 reg_image_bck"
-                data-image="http://placehold.it/1000x1000"
-              ></div>
-              <div class="col-md-6 reg_image_bck" data-color="#292929">
-                <div class="reg_simple_block">
-                  <h2>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                  </h2>
-                  <h3>Great stay!!</h3>
-                  <p>
-                    Thank you for a perfect stay, every thing was very clean and
-                    tidy. We were in a private room with a private restroom.
-                    Breakfast included, very active bar space and funny people,
-                    atmosfere was really nice.
-                  </p>
-                  <p>
-                    <a href="#" class="btn">
-                      Read Full Review
-                    </a>
-                  </p>
-                  <p>
-                    <img src="http://placehold.it/200x80" alt=""></img>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- item --> */}
-            <div class="reg_review_item">
-              <div
-                class="col-md-6 reg_image_bck"
-                data-image="http://placehold.it/1000x1000"
-              ></div>
-              <div class="col-md-6 reg_image_bck" data-color="#292929">
-                <div class="reg_simple_block">
-                  <h2>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                    <i class="ti ti-star"></i>
-                  </h2>
-                  <h3>Definitely would recommend staying here</h3>
-                  <p>
-                    Very clean and comfortable hostel in a great location. The
-                    atmosphere was very fun and lively. Definitely would
-                    recommend staying here.{" "}
-                  </p>
-                  <p>
-                    <a href="#" class="btn">
-                      Read Full Review
-                    </a>
-                  </p>
-                  <p>
-                    <img src="http://placehold.it/200x80" alt=""></img>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- carousel end --> */}
+        <div class="about-col">
+          <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
         </div>
+
         {/* <!-- container end --> */}
       </section>
       {/* <!-- section end --> */}
@@ -513,6 +407,9 @@ export default function Section() {
                 <h2>Social Spaces</h2>
               </div>
               <div class="reg_single_carousel reg_gallery_carousel reg_rooms_carousel">
+                <div class="about-col">
+                  <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
+                </div>
                 <div
                   class="reg_room_block reg_gallery_item reg_image_bck"
                   data-image="http://placehold.it/1000x1000"
@@ -538,7 +435,10 @@ export default function Section() {
                 <h2>Rooms & Dorms</h2>
               </div>
               <div class="reg_single_carousel reg_gallery_carousel reg_rooms_carousel">
-                <div
+                <div class="about-col">
+                  <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
+                </div>
+                {/* <div
                   class="reg_room_block reg_gallery_item reg_image_bck"
                   data-image="http://placehold.it/1000x1000"
                 ></div>
@@ -549,7 +449,7 @@ export default function Section() {
                 <div
                   class="reg_room_block reg_gallery_item reg_image_bck"
                   data-image="http://placehold.it/1000x1000"
-                ></div>
+                ></div> */}
               </div>
             </div>
 
@@ -819,3 +719,118 @@ export default function Section() {
   );
 }
 
+
+
+
+
+        // {/* <!-- over --> */}
+        // <div class="reg_over" data-color="#292929" data-opacity="0.7"></div>
+
+        // <div class="container text-center">
+        //   <h2>Reviews</h2>
+        //   <br></br>
+        //   <h3 class="reg_subtitle">In Social Networks</h3>
+
+        //   <div class="reg_auto_height reg_single_carousel reg_blc_txt">
+        //     {/* <!-- item --> */}
+        //     <div class="reg_review_item">
+        //       <div
+        //         class="col-md-6 reg_image_bck"
+        //         data-image="http://placehold.it/1000x1000"
+        //       ></div>
+        //       <div class="col-md-6 reg_image_bck" data-color="#292929">
+        //         <div class="reg_simple_block">
+        //           <h2>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //           </h2>
+        //           <h3>Once again, another great stay at Regal!! </h3>
+        //           <p>
+        //             Once again, another great stay at Regal!! Great location,
+        //             great atmosphere, fab staff- so friendly, welcoming and
+        //             always willing to help.
+        //           </p>
+        //           <p>
+        //             <a href="#" class="btn">
+        //               Read Full Review
+        //             </a>
+        //           </p>
+        //           <p>
+        //             <img src="http://placehold.it/200x80" alt=""></img>
+        //           </p>
+        //         </div>
+        //       </div>
+        //     </div>
+
+        //     {/* <!-- item --> */}
+        //     <div class="reg_review_item">
+        //       <div
+        //         class="col-md-6 reg_image_bck"
+        //         data-image="http://placehold.it/1000x1000"
+        //       ></div>
+        //       <div class="col-md-6 reg_image_bck" data-color="#292929">
+        //         <div class="reg_simple_block">
+        //           <h2>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //           </h2>
+        //           <h3>Great stay!!</h3>
+        //           <p>
+        //             Thank you for a perfect stay, every thing was very clean and
+        //             tidy. We were in a private room with a private restroom.
+        //             Breakfast included, very active bar space and funny people,
+        //             atmosfere was really nice.
+        //           </p>
+        //           <p>
+        //             <a href="#" class="btn">
+        //               Read Full Review
+        //             </a>
+        //           </p>
+        //           <p>
+        //             <img src="http://placehold.it/200x80" alt=""></img>
+        //           </p>
+        //         </div>
+        //       </div>
+        //     </div>
+
+        //     {/* <!-- item --> */}
+        //     <div class="reg_review_item">
+        //       <div
+        //         class="col-md-6 reg_image_bck"
+        //         data-image="http://placehold.it/1000x1000"
+        //       ></div>
+        //       <div class="col-md-6 reg_image_bck" data-color="#292929">
+        //         <div class="reg_simple_block">
+        //           <h2>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //             <i class="ti ti-star"></i>
+        //           </h2>
+        //           <h3>Definitely would recommend staying here</h3>
+        //           <p>
+        //             Very clean and comfortable hostel in a great location. The
+        //             atmosphere was very fun and lively. Definitely would
+        //             recommend staying here.{" "}
+        //           </p>
+        //           <p>
+        //             <a href="#" class="btn">
+        //               Read Full Review
+        //             </a>
+        //           </p>
+        //           <p>
+        //             <img src="http://placehold.it/200x80" alt=""></img>
+        //           </p>
+        //         </div>
+        //       </div>
+        //     </div>
+        //   </div>
+        //   {/* <!-- carousel end --> */}
+        // </div>
