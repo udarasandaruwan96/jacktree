@@ -51,7 +51,7 @@ export default function Section() {
                 </p>
                 <h3>Jonathan Hayes</h3>
                 <p>Co-founder</p>
-                <img src="../images/signature.png" height="80" alt=""></img>
+                <img src=".../images/signature.png" height="80" alt=""></img>
               </div>
             </div>
             {/* <!-- cole end --> */}
@@ -78,16 +78,19 @@ export default function Section() {
             {/* <!-- item --> */}
             <div class="col-md-6">
               <div class="reg_single_carousel reg_rooms_carousel reg_wht_txt">
+                <div class="about-col">
+                  <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
+                </div>
                 <div
                   class="reg_room_block reg_image_bck"
-                  data-image = "shutterstock_301654907.jpg"
+                  data-image="shutterstock_301654907.jpg"
                 >
                   {/* <!-- vertical text --> */}
                   <div class="reg_slider_copyright">Living Room</div>
                 </div>
                 <div
                   class="reg_room_block reg_image_bck"
-                  data-image = "shutterstock_301654907.jpg"
+                  data-image="shutterstock_301654907.jpg"
                 >
                   {/* <!-- vertical text --> */}
                   <div class="reg_slider_copyright">Kitchen</div>
@@ -101,6 +104,7 @@ export default function Section() {
                 </div>
               </div>
             </div>
+
             <div class="col-md-6 reg_image_bck" data-color="#fff">
               <div class="reg_simple_block text-left">
                 <h2>
@@ -137,6 +141,10 @@ export default function Section() {
             {/* <!-- item --> */}
             <div class="col-md-6 col-md-push-6">
               <div class="reg_single_carousel reg_rooms_carousel reg_wht_txt">
+                <div class="about-col">
+                  <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
+                </div>
+
                 <div
                   class="reg_room_block reg_image_bck"
                   data-image="http://placehold.it/1000x1000"
@@ -197,6 +205,9 @@ export default function Section() {
             {/* <!-- item --> */}
             <div class="col-md-6">
               <div class="reg_single_carousel reg_rooms_carousel reg_wht_txt">
+                <div class="about-col">
+                  <img src="http://regal.maskandesign.com/html/images/slider/shutterstock_245330569.jpg" />
+                </div>
                 <div
                   class="reg_room_block reg_image_bck"
                   data-image="http://placehold.it/1000x1000"
@@ -807,3 +818,4 @@ export default function Section() {
     </React.Fragment>
   );
 }
+
